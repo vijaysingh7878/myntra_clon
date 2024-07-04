@@ -493,6 +493,9 @@ gap: 6px;
     padding: 5px 0px 0px 15px ;
    color:  rgb(136, 136, 136);
 }
+.rating:hover{
+    border: 1px solid rgb(50, 50, 50);
+}
 .rating b{
     color: black;
 }
@@ -538,6 +541,9 @@ font-size: 15px;
     color: rgb(151, 151, 151);
     opacity: 0.8;
 }
+.tshirt_size1 li:hover{
+    border: 1px solid rgb(226, 53, 111);
+}
 .add_cast{
     display: flex;
     gap: 20px;
@@ -550,6 +556,11 @@ font-size: 15px;
     background-color: rgb(226, 53, 111);
     border-radius: 5px;
     padding: 16px 0px 0px 60px;
+    color: white;
+}
+.add_bag:hover{
+    background-color: rgb(255, 79, 138);
+    color: rgb(213, 213, 213);
 }
 .add_wishlist{
     width: 190px;
@@ -558,6 +569,9 @@ font-size: 15px;
     border: 1px solid rgb(201, 201, 201);
     border-radius: 5px;
     padding: 16px 0px 0px 45px;
+}
+.add_wishlist:hover{
+    border: 1px solid rgb(31, 31, 31);
 }
 .delivery{
     display: flex;
