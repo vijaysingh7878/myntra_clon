@@ -440,6 +440,8 @@ gap: 6px;
     display: flex;
     width: 85%;
     margin: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid  rgb(190, 189, 189);
 }
 .photo_detail{
     width: 60%;
