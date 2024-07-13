@@ -33,7 +33,6 @@ body {
     font-size: 13px;
     color: rgb(69, 69, 69);
 }
-
 .search{
     display: flex;
     width: 30%;
@@ -63,13 +62,10 @@ body {
     display: flex;
     width: 100%;
 }
-
-
 .imgheading{
     display: flex;
     justify-content: center;
     width: 100%;
-
 }
 .imgheading img{
     height: 100%;
@@ -84,7 +80,6 @@ body {
 .images_row img{
     width: 16%;
 }
-
  .ditels{
     width: 100%;
     display: flex;
@@ -102,14 +97,12 @@ body {
 }
   .shopping li{
     margin: 10px;
-
 } 
  .link{
     margin-top: 25px;
 } 
  .policy li{
-    margin: 10px;
-     
+    margin: 10px;  
 }
 .appstore{
     width: 230px;
@@ -231,9 +224,7 @@ form select{
     position: sticky;
     top: 85px;
     left: 158px;
-   
 }
-
 .categories{
     padding: 5px 0px 20px 34px;
     word-spacing: 2px;
@@ -313,8 +304,8 @@ gap: 6px;
     margin-top: 10px;
     }
  .right_data{
- margin: 25px;
- gap: 50px;
+    margin: 25px;
+    gap: 50px;
  }
  .right_data img {
     width: 210px;
@@ -405,7 +396,6 @@ gap: 6px;
     width: 500px;
     height: 50px;
     margin: auto;
-    /* background-color: aqua; */
     display: flex;
     gap: 50px;
     padding-top: 19px;
@@ -424,9 +414,7 @@ gap: 6px;
     padding: 4px 0px 0px 12px ;
 }
 
-
  /* details page start  */
-
 
 .img_name{
     width: 85%;
@@ -583,7 +571,7 @@ font-size: 15px;
 }
 .pincode{
     display: flex;
-    width: 200px;
+    width: 210px;
     border: 1px solid rgb(201, 201, 201);
     border-radius: 5px;
     justify-content: space-between;
@@ -736,16 +724,10 @@ border-bottom: 1px solid rgb(201, 201, 201);
 }
  /* details page start  */
 
-
-
-
-
 /* men option page start */
 
 .men_option{
-    /* padding: 17px 0px ; */
     position: relative;
-  
 }
 .men_tshirts_option{
     width: 1000px;
@@ -782,8 +764,14 @@ border-bottom: 1px solid rgb(201, 201, 201);
  .option_list1 li:hover{
     font-weight: bold;
  }
+ .option_list1 li:nth-child(1):hover{
+    font-weight: normal;
+ }
  .option_list2 li:hover{
     font-weight: bold;
+ }
+ .option_list2 li:nth-child(1):hover{
+    font-weight: normal;
  }
 
 
